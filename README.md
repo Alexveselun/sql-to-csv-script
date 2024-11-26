@@ -16,8 +16,13 @@ The code is strung together from other public repos, I'm pretty sure the license
 ## For run
 
 python3 -m venv myenv
+
 source myenv/bin/activate
+
 myenv\Scripts\activate
+
 pip install openpyxl
+
 python mysqldump_to_csv.py b_user.sql
+
 deactivate
